@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/logo_image_description"
+        android:src="@drawable/logo"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSignUpActivity"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#464646"
+        android:text="@string/sign_up"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#D60000"
+        android:textColorLink="#D1E600"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:iconSize="64dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLogOut"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonLogInActivity"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="#464646"
+        android:text="@string/log_in"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:iconSize="64dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSignUpActivity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonHelpActivity"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#464646"
+        android:text="@string/help"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:icon="@drawable/helpicon"
+        app:iconSize="30dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReserveParkingLotActivity" />
+
+    <Button
+        android:id="@+id/buttonPayForParkingLotActivity"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#464646"
+        android:text="@string/pay_for_parking_lot"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <Button
+        android:id="@+id/buttonReserveParkingLotActivity"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:backgroundTint="#464646"
+        android:clickable="false"
+        android:enabled="false"
+        android:text="@string/reserve_a_parking_lot"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPayForParkingLotActivity" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#464646"
+        android:onClick="onExitButtonClick"
+        android:text="@string/exit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:icon="@drawable/exiticon"
+        app:iconSize="40dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonHelpActivity" />
+
+    <Button
+        android:id="@+id/buttonMyAccountActivity"
+        android:layout_width="274dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#464646"
+        android:clickable="false"
+        android:enabled="false"
+        android:text="My Account"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:icon="@drawable/loginicon"
+        app:iconSize="30dp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignUpActivity" />
+
+    <TextView
+        android:id="@+id/textViewLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/pay_park"
+        android:textColor="#464646"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/material_dynamic_neutral30"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMyAccountActivity" />
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:clickable="false"
+        android:enabled="false"
+        android:text="Log Out"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

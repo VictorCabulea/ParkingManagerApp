@@ -1,0 +1,70 @@
+QWidget {
+    background-color: #0D1016;
+}
+
+QMessageBox {
+    background-color: #222831;
+}
+
+QMessageBox QLabel {
+    background-color: transparent;
+    color: #FFF;
+}
+
+QMessageBox QPushButton {
+    color: #FFF;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #30475E;
+    color: #FFF;
+    border: 2px solid #FFA500;
+}
+
+#camera_label {
+    border: 2px solid #FFF;
+    border-radius: 6px;
+}
+
+#info_text {
+    background-color: #222831;
+    color: #FFF;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+}
+
+#line {
+    border: 2px solid #FFA500;
+}
+
+#parking_places_available_label {
+    color: #FFF;
+    font-size: 20px;
+}
+
+#statistics_button {
+    background-color: #FFA500;
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#statistics_button:hover {
+    background-color: #FF7A00;
+}
+
+#payment_label {
+    background-color: #222831;
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,91 @@
+QWidget {
+    background-color: #0D1016;
+}
+
+QMessageBox {
+    background-color: #222831;
+}
+
+QMessageBox QLabel {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+QMessageBox QPushButton {
+    color: #FFFFFF;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #30475E;
+    color: #FFFFFF;
+    border: 2px solid #FFA500;
+}
+
+#camera_label {
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+}
+
+#statistics_button {
+    background-color: #FFA500;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#statistics_button:hover {
+    background-color: #FF7A00;
+}
+
+#info_text {
+    background-color: #222831;
+    color: #FFFFFF;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+    padding: 12px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+#line {
+    border: 2px solid #FFA500;
+}
+
+#vans_and_bigger_cars_button, #normal_cars_button, #electric_cars_button, #disabled_people_cars_button {
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#vans_and_bigger_cars_button {
+    background-color: red;
+}
+
+#normal_cars_button {
+    background-color: yellow;
+}
+
+#electric_cars_button {
+    background-color: green;
+}
+
+#disabled_people_cars_button {
+    color: #FFFFFF;
+    background-color: blue;
+}
+
+#vans_and_bigger_cars_button:hover,
+#normal_cars_button:hover,
+#electric_cars_button:hover,
+#disabled_people_cars_button:hover {
+    background-color: #CCCCCC;
+    border-color: #FFFFFF;
+}
+
+#select_type_of_vehicle_label, #parking_places_available_label {
+    color: #FFFFFF;
+    font-size: 20px;
+}

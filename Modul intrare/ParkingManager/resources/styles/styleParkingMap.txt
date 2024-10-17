@@ -1,0 +1,92 @@
+/* Pentru #a si #b */
+#a_1_position_button, #a_2_position_button, #a_3_position_button, #a_4_position_button, #a_5_position_button,
+#a_6_position_button, #a_7_position_button, #a_8_position_button, #a_9_position_button, #a_10_position_button,
+#b_1_position_button, #b_2_position_button, #b_3_position_button, #b_4_position_button, #b_5_position_button,
+#b_6_position_button, #b_7_position_button, #b_8_position_button, #b_9_position_button, #b_10_position_button{
+    background-color: #FF0000;
+    color: #000;
+    border: 2px solid #FFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#a_1_position_button:hover, #a_2_position_button:hover, #a_3_position_button:hover, #a_4_position_button:hover,
+#a_5_position_button:hover, #a_6_position_button:hover, #a_7_position_button:hover, #a_8_position_button:hover,
+#a_9_position_button:hover, #a_10_position_button:hover,#b_1_position_button:hover, #b_2_position_button:hover,
+#b_3_position_button:hover, #b_4_position_button:hover, #b_5_position_button:hover, #b_6_position_button:hover,
+#b_7_position_button:hover, #b_8_position_button:hover, #b_9_position_button:hover, #b_10_position_button:hover{
+    background-color: #CCCCCC;
+    color: #000;
+}
+
+/* Pentru #c, #d si #e */
+#c_1_position_button, #c_2_position_button, #c_3_position_button, #c_4_position_button, #c_5_position_button,
+#c_6_position_button, #c_7_position_button, #c_8_position_button, #c_9_position_button, #c_10_position_button,
+#d_1_position_button, #d_2_position_button, #d_3_position_button, #d_4_position_button, #d_5_position_button,
+#d_6_position_button, #d_7_position_button, #d_8_position_button, #d_9_position_button, #d_10_position_button,
+#e_1_position_button, #e_2_position_button, #e_3_position_button, #e_4_position_button, #e_5_position_button,
+#e_6_position_button, #e_7_position_button, #e_8_position_button, #e_9_position_button, #e_10_position_button{
+    background-color: #FFFF00;
+    color: #000;
+    border: 2px solid #FFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#c_1_position_button:hover,#c_2_position_button:hover,#c_3_position_button:hover,#c_4_position_button:hover,
+#c_5_position_button:hover,#c_6_position_button:hover,#c_7_position_button:hover,#c_8_position_button:hover,
+#c_9_position_button:hover,#c_10_position_button:hover,#d_1_position_button:hover,#d_2_position_button:hover,
+#d_3_position_button:hover,#d_4_position_button:hover,#d_5_position_button:hover,#d_6_position_button:hover,
+#d_7_position_button:hover,#d_8_position_button:hover,#d_9_position_button:hover,#d_10_position_button:hover,
+#e_1_position_button:hover, #e_2_position_button:hover, #e_3_position_button:hover, #e_4_position_button:hover,
+#e_5_position_button:hover,#e_6_position_button:hover, #e_7_position_button:hover, #e_8_position_button:hover,
+#e_9_position_button:hover, #e_10_position_button:hover{
+    background-color: #CCCCCC;
+    color: #000;
+}
+
+/* Pentru #f si #g */
+#f_1_position_button, #f_2_position_button, #f_3_position_button, #f_4_position_button, #f_5_position_button,
+#f_6_position_button, #f_7_position_button, #f_8_position_button, #f_9_position_button, #f_10_position_button,
+#g_1_position_button, #g_2_position_button, #g_3_position_button, #g_4_position_button, #g_5_position_button,
+#g_6_position_button, #g_7_position_button, #g_8_position_button, #g_9_position_button, #g_10_position_button{
+    background-color: #008000;
+    color: #000;
+    border: 2px solid #FFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#f_1_position_button:hover, #f_2_position_button:hover,#f_3_position_button:hover, #f_4_position_button:hover,
+#f_5_position_button:hover, #f_6_position_button:hover,#f_7_position_button:hover, #f_8_position_button:hover,
+#f_9_position_button:hover, #f_10_position_button:hover, #g_1_position_button:hover, #g_2_position_button:hover,
+#g_3_position_button:hover, #g_4_position_button:hover,#g_5_position_button:hover, #g_6_position_button:hover,
+#g_7_position_button:hover, #g_8_position_button:hover,#g_9_position_button:hover, #g_10_position_button:hover{
+    background-color: #CCCCCC;
+    color: #000;
+}
+
+/* Pentru #h */
+#h_1_position_button, #h_2_position_button, #h_3_position_button, #h_4_position_button, #h_5_position_button,
+#h_6_position_button, #h_7_position_button, #h_8_position_button, #h_9_position_button, #h_10_position_button {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+#h_1_position_button:hover, #h_2_position_button:hover,#h_3_position_button:hover, #h_4_position_button:hover,
+#h_5_position_button:hover, #h_6_position_button:hover,#h_7_position_button:hover, #h_8_position_button:hover,
+#h_9_position_button:hover, #h_10_position_button:hover {
+    background-color: #CCCCCC;
+    color: #000000;
+}
